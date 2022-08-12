@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.bat{
+    width: 400px;
+    height: 150px;
+    border:5px solid gray;
+    margin-left: 100px;
+    display: flex;
+    border-radius: 30px;overflow: hidden;
+}
+.mian{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(90, 88, 88);
+}
+.mian p{
+    margin-left: 100px;
+    padding-top: 50px;
+    color: white;
+}
+.iu{
+    background-color: white;
+    width: 40%;
+    height:100%;
+}
+.goa{
+    width: 30px;
+    height: 50px;
+    border: 5px solid gray;
+    margin-top: 40px;
+}
+.main{
+    display: flex;
+    margin-right: 50px;
+}
+.div{
+    width: 400px;
+    height: 200px;
+
+    border: 5px solid black;
+    margin:auto;
+    overflow: hidden;
+}
+.small{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+   transform: rotate(-50deg) scale(2.5) translateX(-70px);
+}

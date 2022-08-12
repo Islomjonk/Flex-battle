@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 400px;
+    background: pink;
+    padding: 20px;
+    border: 3px solid red;
+    margin: 30px;
+    /* tashqi qatlam */
+    outline: 10px solid blue;
+    /* obzast */
+    text-indent: 30px;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    /* column - holatda  */
+    /* va justify content teskai ishlaydi */
+    /* flex-direction: column-reverse; */
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* align-items:center; */
+    /* 0 - 1 - 1 - 0 */
+    /* justify-content: space-between; */
+    /* 1 - 1 - 1 - 1 */
+    /* justify-content: space-evenly; */
+    /* 1 - 2 - 2 - 1 */
+    /* justify-content: space-around; */
+}
+.item{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    font-size: 1.7rem;
+}
+.second{
+    flex: 2;
+    order: 1;
+}
+.first{
+    flex: 1;
+    order: 2;
+}
+.third{
+    order: 4;
+}
+.forth{
+    order: 3;
+}
+.photo002,
+.photo001{
+    width: 400px;
+}
+.photo002           {
+    /* blur(5px) --> bjr bjr */
+    /* filter: blur(5px); */
+    /* BRIGHTNESS yorug'lik */
+    /* filter: brightness(200%); */
+    /* filter: contrast(200%); */
+    /* grayscale {100%} -qora*/
+    /* filter: grayscale(80%); */
+    /* filter: hue-rotate(300deg); */
+    /* invert - rentgen */
+    /* filter  :invert(100%); */
+    /* qizilga moyil */
+    /* filter: saturate(1000%); */
+    /*  */
+    /* filter: sepia(100%); */
+    filter: blur(5px) hue-rotate(60deg);
+    transition: 1s;
+}
+.photo002:hover{
+    filter: blur(0) hue-rotate(0);
+}
+.photo001{
+    filter: sepia(100%);
+}
